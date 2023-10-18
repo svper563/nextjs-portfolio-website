@@ -1,3 +1,5 @@
+import styles from './Intro.module.css';
+
 export default function Intro() {
     return (
         <>
@@ -6,7 +8,7 @@ export default function Intro() {
             <p>Aspiring developer.</p>
             <p>Mediocre chess player.</p>
 
-            <h2>BRIAN TEACHEY</h2>
+            <h2 className={styles.glitch}>BRIAN TEACHEY</h2>
         </>
     )
 }
