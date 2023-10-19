@@ -6,15 +6,20 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <>
-      <Intro/>
-      <CertImages/>
-      <CertIcons/>
-      <Footer/>
+    <div>
+      <div className="sky">
+        <Intro/>
+        <CertImages/>
+        <br/>
+        <CertIcons/>
+      </div>
+      <div className="land">
+        <Footer/>
+      </div>
      
 
       <Script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></Script>
       <Script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></Script>
-    </>
+    </div>
   )
 }

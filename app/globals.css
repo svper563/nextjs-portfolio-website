@@ -19,6 +19,25 @@ body > * {
   text-align: center;
 }
 
+.sky {
+  background: linear-gradient(
+    to bottom,
+     #06020600,
+     #5a156480 40%,
+     #5803c0b6 70%,
+     #28018a);
+  padding-bottom: .25rem;
+  position: relative;
+  z-index:1;
+}
+
+.land {
+  position:relative;
+  background-color: black;
+  z-index:4;
+  padding: 1rem 0rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
