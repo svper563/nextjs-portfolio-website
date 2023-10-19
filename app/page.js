@@ -13,6 +13,10 @@ export default function Home() {
         <br/>
         <CertIcons/>
       </div>
+
+      <div className="stars"></div>
+      <div className="twinkling"></div>
+      
       <div className="land">
         <Footer/>
       </div>
