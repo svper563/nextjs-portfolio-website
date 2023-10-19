@@ -8,7 +8,9 @@ export default function Intro() {
             <p>Aspiring developer.</p>
             <p>Mediocre chess player.</p>
 
-            <h2 className={styles.glitch}>BRIAN TEACHEY</h2>
+            <div className={styles.moon}>
+                <h2 className={styles.glitch}>BRIAN TEACHEY</h2>
+            </div>
         </>
     )
 }
