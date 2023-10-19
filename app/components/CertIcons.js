@@ -1,6 +1,8 @@
+import styles from "./Certs.module.css"
+
 export default function CertIcons() {
     return (
-        <>
+        <div className={styles.icons}>
             <ion-icon name="logo-html5" title="HTML 5"></ion-icon>
             <ion-icon name="logo-css3" title="CSS 3"></ion-icon>
             <ion-icon name="git-branch" title="git"></ion-icon>
@@ -8,6 +10,6 @@ export default function CertIcons() {
             <ion-icon name="logo-npm" title="NPM"></ion-icon>
             <ion-icon name="logo-react" title="React"></ion-icon>
             <ion-icon name="logo-python" title="Python"></ion-icon>
-        </>
+        </div>
     )
 }

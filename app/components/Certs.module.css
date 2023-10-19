@@ -1,0 +1,38 @@
+.certs {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    flex-wrap: wrap;
+}
+
+.cert {
+    width: 200px;
+    height: 200px;
+    min-width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+}
+
+.icons {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+    margin-right: 3rem;
+    flex-wrap: wrap;
+}
+
+.icons > * {
+    width: 80px;
+    height: 80px;
+    min-width: 65px;
+    min-height: 65px;
+}
