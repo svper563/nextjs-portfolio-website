@@ -13,6 +13,7 @@ body, html {
   -o-user-select: none;
   user-select: none;
   font-family: 'IBM Plex Mono', monospace;
+  text-shadow: black .25rem .25rem 3px;
 }
 
 body > * {
@@ -34,6 +35,24 @@ body > * {
   align-items: center;
   justify-self: center;
   z-index:1;
+}
+
+.sky::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to bottom,
+     #FFb42A,
+     #FB9739 40%,
+     #Ea6B20 70%,
+     #D8682C);
+  height: 100%;
+  width:100%;
+  z-index: -1;
+  transition: ease-in-out 1000ms opacity;
 }
 
 .land {
