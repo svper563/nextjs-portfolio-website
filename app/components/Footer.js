@@ -12,7 +12,7 @@ export default function Footer() {
                 <ion-icon class="icon" name="game-controller" title="Chess.com"></ion-icon>
             </a>
 
-            <p>Copyright 2023 Brian Teachey.</p>
+            <p>Copyright 2023 Brian Teachey</p>
         </>
     )
 }
