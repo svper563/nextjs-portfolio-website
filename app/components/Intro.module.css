@@ -5,7 +5,9 @@
   } */
 
 .moon {
+    opacity:1;
     position: relative;
+    left: 0;
     display:flex;
     content: none;
     background-color: black;
@@ -19,10 +21,36 @@
     padding: 2rem;
     margin:5rem 0rem;
     z-index:2;
+    /* animation: moon-sun 1000ms forwards; */
 }   
+
+.moon::after {
+  opacity: 1;
+  content: "";
+  position: absolute;
+  top:300rem;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 222, 188);
+  border-radius: 50%;
+  z-index: -1;
+  transition: ease-in-out 1000ms opacity;
+}
+
+@keyframes moon-sun {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -300rem;
+  }
+}
+
 .header {
     font-size: 3rem;
     margin: 5rem 0;
+    padding: 2rem;
 }
 
 .glitch {
