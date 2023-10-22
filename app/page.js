@@ -3,11 +3,13 @@ import Intro from "./components/Intro";
 import CertIcons from "./components/CertIcons"
 import CertImages from "./components/CertImages";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <div>
       <div className="sky">
+        <Navbar/>
         <Intro/>
         <CertImages/>
         <br/>
