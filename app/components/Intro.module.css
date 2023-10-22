@@ -21,7 +21,6 @@
     padding: 2rem;
     margin:5rem 0rem;
     z-index:2;
-    /* animation: moon-sun 1000ms forwards; */
 }   
 
 .moon::after {
@@ -38,14 +37,6 @@
   transition: ease-in-out 1000ms opacity;
 }
 
-@keyframes moon-sun {
-  0% {
-    top: 0;
-  }
-  100% {
-    top: -300rem;
-  }
-}
 
 .header {
     font-size: 3rem;
