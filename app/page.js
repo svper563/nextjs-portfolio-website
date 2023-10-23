@@ -1,3 +1,6 @@
+'use client'
+import { useState } from "react";
+
 import Script from "next/script"
 import Intro from "./components/Intro";
 import CertIcons from "./components/CertIcons"
@@ -6,10 +9,13 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
+
+  const [theme, setTheme] = useState('dark');
+  
   return (
     <div>
       <div className="sky">
-        <Navbar/>
+        <Navbar setTheme={setTheme} theme={theme}/>
         <Intro/>
         <CertImages/>
         <br/>

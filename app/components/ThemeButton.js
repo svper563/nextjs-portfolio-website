@@ -1,9 +1,7 @@
 'use client'
 import { useState } from "react";
 
-export default function ThemeButton({className}) {
-
-    const [theme, setTheme] = useState("dark");
+export default function ThemeButton({className, setTheme, theme}) {
 
     function toggleTheme(theme) {
         theme === "dark" ? setTheme("light") : setTheme("dark");
