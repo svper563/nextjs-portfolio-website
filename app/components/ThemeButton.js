@@ -12,7 +12,7 @@ export default function ThemeButton({className}) {
     return (
         <>
             <button className={className} onClick={() => toggleTheme(theme)}>
-                {theme == "dark" ? <ion-icon name="moon-outline"/> : <ion-icon name="sunny-outline"/>}
+                {theme == "dark" ? <ion-icon name="sunny-outline"/> : <ion-icon name="moon-outline"/>}
             </button>
         </>
     )
