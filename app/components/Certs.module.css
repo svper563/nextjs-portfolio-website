@@ -16,6 +16,15 @@
     min-width: 150px;
     min-height: 150px;
     overflow: hidden;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition-property: all;
+    transition: ease-in-out 300ms;
+}
+
+.cert:hover {
+    scale: 1.1;
+    background-color: rgba(93, 0, 252, 0.538);
 }
 
 .icons {
@@ -33,4 +42,13 @@
     height: 80px;
     min-width: 65px;
     min-height: 65px;
+    padding: 0.5rem;
+    transition-property: all;
+    transition: ease-in-out 300ms;
+    border-radius: 1rem;
+}
+
+.icons > *:hover {
+    scale: 1.15;
+    background-color: rgba(93, 0, 252, 0.538);
 }
