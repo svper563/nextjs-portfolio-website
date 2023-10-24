@@ -17,15 +17,16 @@ export default function Home() {
       <div className="sky">
         <Navbar setTheme={setTheme} theme={theme}/>
         <Intro/>
-        <CertImages/>
-        <br/>
-        <CertIcons/>
+        
       </div>
 
       <div className="stars"></div>
       <div className="twinkling"></div>
       
       <div className="land">
+        <CertImages/>
+        <br/>
+        <CertIcons/>
         <Footer/>
       </div>
      
