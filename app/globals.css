@@ -87,6 +87,10 @@ body > * {
   animation:move-twink-back 200s linear infinite;
 }
 
+.contact {
+  margin-bottom: 5rem;
+}
+
 @keyframes move-twink-back {
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
