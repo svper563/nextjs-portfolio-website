@@ -14,8 +14,9 @@ export default function Home() {
   
   return (
     <div>
+      <Navbar setTheme={setTheme} theme={theme}/>
       <div className="sky">
-        <Navbar setTheme={setTheme} theme={theme}/>
+        
         <Intro/>
         
       </div>
